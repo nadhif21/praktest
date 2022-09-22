@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main (){
+	
+	int a;
+	cout<<"masukan angka : ";
+	cin>>a;
+	
+	if(a==1){cout<<"SATU";
+	}else if(a==2){cout<<"DUA";
+	}else if(a==3){cout<<"TIGA";
+	}else if(a>3){cout<<"BILANGAN LEBIH DARI TIGA";
+	}
+	
+	return 0;
+	
+}
